@@ -1,0 +1,7 @@
+FROM scratch
+
+WORKDIR /app
+
+ADD hello-docker /app/
+
+ENTRYPOINT ["/app/hello-docker"]
